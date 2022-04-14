@@ -1,0 +1,515 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.image {
+  display: none !important;
+}
+.porteghal2-desk {
+  display: block !important;
+  width: 100%;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 8vh;
+  background-color: rgb(80 176 255);
+}
+.image-desktop {
+  margin-top: 7rem;
+}
+.gillas-desktop {
+  width: 100% !important;
+  display: block !important;
+}
+.milk2 {
+  width: 24.69%;
+}
+.logo {
+  color: white;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+}
+.nav-links {
+  display: flex;
+  justify-content: space-around;
+  width: 30%;
+}
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  letter-spacing: 3px;
+  font-weight: bold;
+  font-size: 14px;
+}
+.nav-links li {
+  list-style: none;
+}
+.burger div {
+  width: 25px;
+  height: 3px;
+  background-color: white;
+  margin: 5px;
+}
+.img-logo {
+  border-radius: 75px;
+}
+
+.burger {
+  display: none;
+  cursor: pointer;
+}
+.daroon-para {
+  display: flex;
+  flex-direction: row;
+}
+.starter-site {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 12rem;
+}
+.first-commend {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+  height: 25rem;
+}
+.CREATIVE {
+  color: white;
+  font-size: xxx-large;
+}
+.dardesar {
+  position: relative;
+  bottom: 3.5rem;
+}
+.porteghal {
+  display: none;
+}
+.egg {
+  width: 50%;
+}
+.porteghal-desktop {
+  display: block;
+  width: 100%;
+}
+.father-egg-down {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+.link-egg-down {
+  color: black;
+  text-decoration: yellow;
+}
+.egg-father {
+  display: flex;
+  flex-direction: row;
+}
+.gillas .egg-down {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 17rem;
+  font-family: "Fraunces", serif;
+  width: 80%;
+  text-align: center;
+  font-size: x-large;
+}
+.egg-down {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 17rem;
+  font-family: "Fraunces", serif;
+  width: 80% !important;
+  text-align: center !important;
+  font-size: x-large !important;
+  color: black;
+  text-decoration: yellow;
+}
+.egg-2down {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.noshidani {
+  width: 50%;
+}
+.egg-down-para {
+  color: rgb(121, 121, 121);
+  opacity: 0.8;
+}
+.egg-3down {
+  width: 100%;
+}
+.egg-4down {
+  width: 100%;
+}
+.daroon-porteghal {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+.gillas {
+  display: none !important;
+}
+.porteghal2 {
+  display: none;
+}
+.daroon-gillas {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+.Client {
+  color: rgb(126, 126, 126);
+  display: flex;
+  justify-content: center;
+  margin-bottom: 3rem;
+}
+.text-commend {
+  font-size: x-large;
+  color: rgb(97, 95, 95);
+  font-family: sans-serif;
+  width: 100%;
+}
+.ALL-commend {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-around;
+  text-align: center;
+  align-items: center;
+}
+.father-first-commend {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+/* hamonjayi ke bayad text ro bedim bala */
+.caption {
+  position: relative;
+  bottom: 15rem;
+}
+.in-gillas {
+  text-align: center;
+}
+.in-porteghal2 {
+  text-align: center;
+  width: 100%;
+}
+.pp {
+  width: 100%;
+}
+.footer {
+  background-color: #9cdcce;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 17rem;
+}
+.sunny-footer {
+  letter-spacing: 5px;
+  color: rgb(37, 86, 75);
+  display: flex;
+  justify-content: center;
+  font-size: xx-large;
+}
+.father-service {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.service {
+  display: flex;
+  justify-content: space-around;
+  font-size: x-large;
+  color: rgb(5, 73, 73);
+  width: 25%;
+}
+.father-soccialMedia {
+  display: flex;
+  justify-content: center;
+}
+.soccialMedia {
+  display: flex;
+  justify-content: space-around;
+  width: 25%;
+}
+@media screen and (max-width: 1140px) {
+  .nav-links {
+    width: 60%;
+  }
+  .pp {
+    position: relative;
+    top: 100px;
+  }
+  .egg-down {
+    height: 29rem;
+  }
+  .milk2 {
+    width: 24%;
+  }
+}
+@media screen and (max-width: 768px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  /* .CREATIVE{
+    position: relative;
+    top: 1rem;
+  } */
+  .daroon-porteghal {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .daroon-gillas {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .daroon-para {
+    display: flex;
+    flex-direction: column;
+  }
+  .egg-2down {
+    display: flex;
+    flex-direction: column;
+  }
+  .egg-down {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 17rem;
+    font-family: "Fraunces", serif;
+    width: 80% !important;
+    text-align: center !important;
+    font-size: large !important;
+  }
+  .nav-links {
+    position: absolute;
+    right: 0;
+    height: 92vh;
+    top: 8vh;
+    background-color: rgb(0, 140, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    transform: translateX(100%);
+    transition: transform 0.5s ease-in;
+  }
+  .porteghal-desktop {
+    display: none;
+  }
+  .starter-site {
+    display: none;
+    font-size: xx-large;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    background-image: url(/images/sunnyside/sunnyside-agency-landing-page-main/images/mobile/image-header.jpg);
+
+    /* position: relative;
+    top: 1rem; */
+    color: aliceblue;
+    text-align: center;
+    position: unset;
+    top: 0rem;
+  }
+  .porteghal {
+    width: 100%;
+    display: block;
+  }
+  .egg {
+    width: 100%;
+    height: auto;
+  }
+  .egg-father {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .father-egg-down {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    order: 3;
+  }
+  .egg-3down {
+    width: 100%;
+  }
+  .egg-4down {
+    width: 100%;
+  }
+  .link-egg-down {
+    color: black;
+    text-decoration: yellow;
+  }
+  .gillas {
+    width: 100% !important;
+    display: block !important;
+    height: 50%;
+  }
+  .in-gillas {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 7rem;
+    text-align: center;
+    width: 85%;
+    color: rgb(26, 82, 82);
+    position: relative;
+    top: 1rem;
+  }
+  .father-in-gillas {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 21rem !important;
+  }
+  .porteghal2 {
+    width: 100% !important;
+    position: relative;
+    bottom: 8rem;
+    display: block;
+  }
+  .father-in-porteghal2 {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 26rem;
+  }
+  .image-desktop {
+    display: none;
+  }
+  .in-porteghal2 {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 6rem;
+    width: 88%;
+    position: relative;
+    top: 1rem;
+  }
+  .Client {
+    letter-spacing: 5px;
+    color: gray;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 12rem;
+  }
+
+  .ALL-commend {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 32rem;
+    margin-bottom: 15rem;
+    margin-left: 1rem;
+  }
+  .father-first-commend {
+    display: flex;
+    justify-content: center;
+  }
+  .first-commend {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    color: rgb(71, 71, 71);
+    width: 80%;
+    height: 15rem;
+    align-content: center;
+    margin-top: 3rem;
+  }
+  .milk {
+    width: 50%;
+  }
+  .top-image {
+    display: flex;
+  }
+  .img-logo {
+    border-radius: 50%;
+    margin: auto;
+    width: 80px;
+    height: 80px;
+  }
+  .father-soccialMedia {
+    display: flex;
+    justify-content: center;
+  }
+  .soccialMedia {
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+  }
+  .top-image .name {
+    color: black;
+  }
+  .sunny-footer {
+    letter-spacing: 5px;
+    color: rgb(37, 86, 75);
+    display: flex;
+    justify-content: center;
+  }
+  .footer {
+    background-color: #9cdcce;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 17rem;
+  }
+
+  .father-service {
+    display: flex;
+    justify-content: center;
+  }
+  .service {
+    display: flex;
+    justify-content: space-around;
+    font-size: x-large;
+    color: rgb(5, 73, 73);
+    width: 75%;
+  }
+  .image {
+    display: block !important;
+  }
+  .noshidani {
+    width: 100% !important;
+    order: 1;
+  }
+  /* .nav-links li {
+    opacity: 0;
+  } */
+  .burger {
+    display: block;
+  }
+  .gillas-desktop {
+    display: none !important;
+  }
+  .porteghal2-desk {
+    display: none !important;
+  }
+}
+
+.nav-active {
+  transform: translateX(0%);
+}
